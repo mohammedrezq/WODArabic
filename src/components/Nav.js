@@ -38,9 +38,9 @@ const Nav = () => {
           <li>
             <Link to="/about">عنا</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/contact">اتصل بنا</Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>
