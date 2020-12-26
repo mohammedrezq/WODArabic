@@ -1,0 +1,9 @@
+/node_modules/*
+/node_modules
+/.cache
+/public
+/functions/contact/node_modules
+/functions/contact/node_modules/*
+
+.env
+.env.*
