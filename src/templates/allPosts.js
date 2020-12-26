@@ -16,7 +16,7 @@ const allPosts = ({ pageContext, data }) => {
   const nextPage = `/blog/${currentPage + 1}`;
 
   const posts = data.allMdx.edges;
-  console.log(posts);
+  // console.log(posts);
 
   return (
     <>
