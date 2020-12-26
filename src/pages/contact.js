@@ -25,14 +25,14 @@ const ContactPage = () => {
     setMessageNightWatch(e.currentTarget.value);
   };
 
-  const clearFields = () => {
-   if (window.confirm("Are you sure you want to reset all the fields?")) {
-      setMessage("")
-    setName("");
-    setEmail("");
-    }
+  // const clearFields = () => {
+  //  if (window.confirm("Are you sure you want to reset all the fields?")) {
+  //     setMessage("")
+  //   setName("");
+  //   setEmail("");
+  //   }
     
-  }
+  // }
 
   return (
     <>
@@ -108,7 +108,7 @@ const ContactPage = () => {
               onChange={messageNightWatchState}
             />
             <button type="submit">ارسل</button>
-            <input type="reset" value="امسح" onClick={clearFields} />
+            {/* <input type="reset" value="امسح" onClick={clearFields} /> */}
           </fieldset>
         </form>
       </div>

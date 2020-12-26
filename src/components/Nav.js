@@ -33,13 +33,13 @@ const Nav = () => {
             <Link to="/services">الخدمات</Link>
           </li>
           <li>
-            <Link to="/tags">Tags</Link>
+            <Link to="/contact">اتصل بنا</Link>
           </li>
           <li>
             <Link to="/about">عنا</Link>
           </li>
           <li>
-            <Link to="/contact">اتصل بنا</Link>
+            <Link to="/tags">Tags</Link>
           </li>
         </ul>
       </div>
