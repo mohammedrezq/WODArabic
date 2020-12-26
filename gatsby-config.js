@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ['/*'],
+        precachePages: ['/static/', '/src/pages/*', '/src/components/*', '/src/images/*','/src/templates/*'],
       },
     },
     // "gatsby-transformer-remark",

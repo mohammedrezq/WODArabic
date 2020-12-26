@@ -35,6 +35,12 @@ const Nav = () => {
           <li>
             <Link activeClassName={NavStyles.active} to="/tags">Tags</Link>
           </li>
+          <li>
+            <Link  activeClassName={NavStyles.active} to="/about">عنا</Link>
+          </li>
+          <li>
+            <Link  activeClassName={NavStyles.active} to="/contact">اتصل بنا</Link>
+          </li>
         </ul>
       </div>
     </nav>
