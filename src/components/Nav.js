@@ -36,7 +36,7 @@ const Nav = () => {
             <Link activeClassName={NavStyles.active} to="/tags">Tags</Link>
           </li>
           <li>
-            <Link  activeClassName={NavStyles.active} to="/about">عنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/aboutus">عنا</Link>
           </li>
           <li>
             <Link  activeClassName={NavStyles.active} to="/contact">اتصل بنا</Link>
