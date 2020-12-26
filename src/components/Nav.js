@@ -24,22 +24,22 @@ const Nav = () => {
       <div className={NavStyles.linkList}>
         <ul>
           <li>
-            <Link to="/">الرئيسية</Link>
+            <Link activeClassName={NavStyles.active} to="/">الرئيسية</Link>
           </li>
           <li>
-            <Link to="/blog">المدونة</Link>
+            <Link activeClassName={NavStyles.active} to="/blog">المدونة</Link>
           </li>
           <li>
-            <Link to="/services">الخدمات</Link>
+            <Link activeClassName={NavStyles.active} to="/services">الخدمات</Link>
           </li>
           <li>
-            <Link to="/tags">Tags</Link>
+            <Link activeClassName={NavStyles.active} to="/tags">Tags</Link>
           </li>
           <li>
-            <Link to="/about">عنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/about">عنا</Link>
           </li>
           <li>
-            <Link to="/contact">اتصل بنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/contact">اتصل بنا</Link>
           </li>
         </ul>
       </div>
