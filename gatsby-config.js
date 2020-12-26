@@ -31,9 +31,9 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-offline",
-      // options: {
-      //   precachePages: ['/static/', '/src/images/*'],
-      // },
+      options: {
+        precachePages: ['/static/*', '/blog/*', '/blog'],
+      },
     },
     // "gatsby-transformer-remark",
     {
