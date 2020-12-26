@@ -39,7 +39,7 @@ const Nav = () => {
             <Link  activeClassName={NavStyles.active} to="/aboutus">عنا</Link>
           </li>
           <li>
-            <Link  activeClassName={NavStyles.active} to="/contact">اتصل بنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/contactus">اتصل بنا</Link>
           </li>
         </ul>
       </div>
