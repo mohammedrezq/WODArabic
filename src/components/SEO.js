@@ -31,7 +31,7 @@ const SEO = ({children, location, description, title, image}) => {
             <meta property="og:title" content={title} key="ogtitle" />
             <meta property="og:site_name" content={site.siteMetadata.title} key="ogsitename" />
             <meta property="og:description" content={description} key="ogdescription" />
-            <meta name="google-site-verification" content={process.env.GOOGLE_VERIFICATION} />
+            <meta name="google-site-verification" content="ZfSmjcVtt2Z1Cuwp1I2TaGaCCmoqCoHwQYYRck1nXeQ" />
             {children}
         </Helmet>
     )
