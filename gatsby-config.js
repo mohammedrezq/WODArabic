@@ -45,10 +45,10 @@ module.exports = {
           `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-external-links`,
-            options: {
-              target: "_blank",
-              rel: "nofollow"
-            }
+            // options: {
+            //   target: "_blank",
+            //   rel: "nofollow"
+            // }
           },
           {
             resolve: `gatsby-remark-images`,
