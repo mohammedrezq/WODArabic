@@ -1,12 +1,12 @@
 @import "../styles/variables.scss";
 
-.mainContent{
+.mainContent {
   a {
     color: $darkGrey;
   }
 
   a:hover {
-    color: darken($darkGrey, 12%);
+    color: darken($blue, 10%);
     text-decoration: underline;
     transition: 0.1s ease-in-out;
   }
@@ -23,6 +23,10 @@
   padding: 0 1.5rem;
   margin-left: auto;
   margin-right: auto;
+  p {
+    font-family: Tahoma, sans-serif, "Almarai";
+    font-size: 1.8rem;
+  }
 }
 
 .singlePostTitle {
@@ -60,7 +64,7 @@
   }
 }
 
-.contentTable{
+.contentTable {
   border: 2px solid $dark;
   padding: 15px;
   margin: 5px;
@@ -76,12 +80,14 @@
 }
 
 html[lang="ar"] {
-  .prevPostLink, .nextPostLink {
+  .prevPostLink,
+  .nextPostLink {
     justify-content: flex-start;
   }
 }
 
-.prevPostLink, .nextPostLink {
+.prevPostLink,
+.nextPostLink {
   width: 44%;
   min-height: 50px;
   padding: 17px 19px;
@@ -94,25 +100,27 @@ html[lang="ar"] {
   border: 2px solid lighten($dark, 20%);
 }
 
-a.prevPostLink:hover, a.nextPostLink:hover {
+a.prevPostLink:hover,
+a.nextPostLink:hover {
   background-color: $dark;
   transition: 0.1s ease-out;
   color: $white;
 }
 
-
 @media (max-width: 600px) {
   .navigatePrevNext {
     display: block;
   }
-  .prevPostLink, .nextPostLink {
+  .prevPostLink,
+  .nextPostLink {
     display: block;
     width: 91%;
     margin-top: 5px;
   }
 }
 @media (max-width: 480px) {
-  .prevPostLink, .nextPostLink {
+  .prevPostLink,
+  .nextPostLink {
     width: 88%;
   }
 }
@@ -136,7 +144,7 @@ a.prevPostLink:hover, a.nextPostLink:hover {
     margin: 1.5rem auto 1.5rem auto;
   }
   .textContainerHeader {
-      margin-top: 1rem;
+    margin-top: 1rem;
     a {
       margin-top: 1.2rem;
       .tagItem {

@@ -15,7 +15,7 @@ export const query = graphql`
     mdx(id: { eq: $id }) {
       body
       # timeToRead
-      tableOfContents(maxDepth: 3)
+      tableOfContents(maxDepth: 5)
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

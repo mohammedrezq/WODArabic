@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "موقع تطوير الويب والتطبيقات",
+    title: "موقع تطوير الويب",
     siteUrl: "https://www.webmasteronlinedev.com",
-    description: "موقع مطور الويب يقدم خدمات ومحتوى للمهتمين بمجال الويب وتطبيقات الويب والهواتف الذكية",
+    description:
+      "موقع مطور الويب يقدم خدمات ومحتوى للمهتمين بمجال الويب وتطبيقات الويب وتطبيقات الهواتف الذكية",
     author: "محمد رزق",
     twitter: "@mohammedrezq2",
   },
@@ -32,7 +33,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ['/static/*', '/blog/*', '/blog'],
+        precachePages: ["/static/*", "/blog/*", "/blog"],
       },
     },
     // "gatsby-transformer-remark",
@@ -42,6 +43,13 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-external-links`,
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
