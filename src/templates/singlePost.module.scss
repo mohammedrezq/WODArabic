@@ -2,11 +2,11 @@
 
 .mainContent {
   a {
-    color: $darkGrey;
+    color: darken($blue, 10%);
   }
 
   a:hover {
-    color: darken($blue, 10%);
+    color: $blue;
     text-decoration: underline;
     transition: 0.1s ease-in-out;
   }
@@ -26,6 +26,11 @@
   p {
     font-family: Tahoma, sans-serif, "Almarai";
     font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  li {
+    line-height: 2.8rem;
+    margin-top: 1rem;
   }
 }
 

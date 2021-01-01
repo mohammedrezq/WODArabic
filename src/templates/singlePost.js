@@ -21,6 +21,7 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         tags
+        excerpt
         featureImage {
           childImageSharp {
             fluid(maxWidth: 800, maxHeight: 600, cropFocus: CENTER) {
@@ -36,10 +37,9 @@ export const query = graphql`
 
 const singlePost = ({ data, pageContext }) => {
   const { prev, next } = pageContext;
-  // console.log(data);
   return (
     <>
-      <SEO title={data.mdx.frontmatter.title} />
+      <SEO title={data.mdx.frontmatter.title} description={data.mdx.frontmatter.excerpt} image={`${process.env.GATSBY_WEBASITE_URL + data.mdx.frontmatter.featureImage.childImageSharp.fluid.src}`} />
       <Layout>
         <main className={singlePostStyles.mainContent}>
           <h1 className={singlePostStyles.singlePostTitle}>

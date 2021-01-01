@@ -7,9 +7,9 @@ import SEO from "../components/SEO"
 const IndexPage = () => {
   return (
     <>
-    <SEO title="Main" />
+    <SEO title="الرئيسية" />
     <Layout>
-    <h1>Hello Webmaster Online Dev</h1>
+    <h1>أهلاً بك في موقع تطوير الويب</h1>
     </Layout>
     </>
   )
