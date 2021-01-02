@@ -33,13 +33,13 @@ const Nav = () => {
             <Link activeClassName={NavStyles.active} to="/services">الخدمات</Link>
           </li>
           <li>
-            <Link activeClassName={NavStyles.active} to="/tags">Tags</Link>
+            <Link activeClassName={NavStyles.active} to="/tags">التصنيفات</Link>
           </li>
           <li>
-            <Link  activeClassName={NavStyles.active} to="/aboutus">عنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/about">عني</Link>
           </li>
           <li>
-            <Link  activeClassName={NavStyles.active} to="/contactus">اتصل بنا</Link>
+            <Link  activeClassName={NavStyles.active} to="/contact">اتصل بي</Link>
           </li>
         </ul>
       </div>
